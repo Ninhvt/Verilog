@@ -1,0 +1,28 @@
+
+module day_choose (
+    input  [ 4:0] month,
+    input  [15:0] year,
+    output [ 1:0] rst_day
+);
+
+  
+  reg [1:0] rst_day_cnt;
+
+  // 00:28; 01:29; 10:30; 11:31
+  always @(*) begin
+    if ((month == 4'd4) || (month == 4'd6) || (month == 4'd9) || (month == 4'd11)) begin
+      rst_day_cnt <= 2'b10;
+    end else if (month == 4'd2) begin
+      if ((year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0))) begin
+        rst_day_cnt <= 2'b01;
+      end else begin
+        rst_day_cnt <= 2'b00;
+      end
+    end else begin
+      rst_day_cnt <= 2'b11;
+    end
+  end
+
+  assign rst_day = rst_day_cnt;
+endmodule
+

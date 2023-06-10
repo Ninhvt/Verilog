@@ -1,0 +1,15 @@
+E:/verilog/7seg/7seg.v {1 {vlog -work work -vopt -stats=none E:/verilog/7seg/7seg.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module seven_segment_display
+
+Top level modules:
+	seven_segment_display
+
+} {} {}} E:/verilog/7seg/testbench.v {1 {vlog -work work -vopt -stats=none E:/verilog/7seg/testbench.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module seven_segment_display_tb
+
+Top level modules:
+	seven_segment_display_tb
+
+} {} {}}

@@ -1,0 +1,16 @@
+E:/verilog/lab2/adder32bit/adder32bit.v {1 {vlog -work work -vopt -stats=none E:/verilog/lab2/adder32bit/adder32bit.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module full_adder_32bit
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder_32bit
+
+} {} {}} E:/verilog/lab2/adder32bit/adder32bit_tb.v {1 {vlog -work work -vopt -stats=none E:/verilog/lab2/adder32bit/adder32bit_tb.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module TB
+
+Top level modules:
+	TB
+
+} {} {}}

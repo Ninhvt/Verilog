@@ -1,0 +1,15 @@
+E:/verilog/Digital-design-master/Digital-design-master/lab2/majority/majority.v {1 {vlog -work work -vopt -stats=none E:/verilog/Digital-design-master/Digital-design-master/lab2/majority/majority.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module majority
+
+Top level modules:
+	majority
+
+} {} {}} E:/verilog/Digital-design-master/Digital-design-master/lab2/majority/tb_majority.v {1 {vlog -work work -vopt -stats=none E:/verilog/Digital-design-master/Digital-design-master/lab2/majority/tb_majority.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module majority_tb
+
+Top level modules:
+	majority_tb
+
+} {} {}}

@@ -1,0 +1,83 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/verilog/Verilog/lab1
+T_opt
+!s110 1686329814
+VklB^DTP?doaQG?Pi_>:gX1
+04 2 4 work TB fast 0
+=1-e4a8dfb35296-648359d6-19c-4190
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;10.6c;65
+vfull_adder
+Z1 !s110 1686329806
+!i10b 1
+!s100 @LU8F5?_<DRcziA[<TcTM2
+I:91z07Df?:hB]bka]7cl[1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dE:/verilog/Verilog/lab2/fulladder
+Z4 w1682073138
+Z5 8E:/verilog/lab2/adder32bit/adder32bit.v
+Z6 FE:/verilog/lab2/adder32bit/adder32bit.v
+L0 22
+Z7 OL;L;10.6c;65
+r1
+!s85 0
+31
+Z8 !s108 1686329806.000000
+Z9 !s107 E:/verilog/lab2/adder32bit/adder32bit.v|
+Z10 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/verilog/lab2/adder32bit/adder32bit.v|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+vfull_adder_32bit
+R1
+!i10b 1
+!s100 4f]_635_jH:;I][M>CGgS1
+IV9>R4dFeVV1jHY7Z[2>E70
+R2
+R3
+R4
+R5
+R6
+L0 3
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R0
+vTB
+R1
+!i10b 1
+!s100 RLfgBNKElnC3k0n5Am1V]3
+IEkZecAa47z^BlFh2[PZjZ0
+R2
+R3
+w1682077148
+8E:/verilog/lab2/adder32bit/adder32bit_tb.v
+FE:/verilog/lab2/adder32bit/adder32bit_tb.v
+L0 3
+R7
+r1
+!s85 0
+31
+R8
+!s107 E:/verilog/lab2/adder32bit/adder32bit_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/verilog/lab2/adder32bit/adder32bit_tb.v|
+!i113 0
+R11
+R0
+n@t@b

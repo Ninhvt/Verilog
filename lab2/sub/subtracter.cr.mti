@@ -1,0 +1,16 @@
+E:/verilog/lab2/Subtractor_32bit/Subtractor_32bit.v {1 {vlog -work work -vopt -stats=none E:/verilog/lab2/Subtractor_32bit/Subtractor_32bit.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module subtractor_32bit
+-- Compiling module full_adder
+
+Top level modules:
+	subtractor_32bit
+
+} {} {}} E:/verilog/lab2/Subtractor_32bit/Subtractor_tb.v {1 {vlog -work work -vopt -stats=none E:/verilog/lab2/Subtractor_32bit/Subtractor_tb.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module TB_Subtractor
+
+Top level modules:
+	TB_Subtractor
+
+} {} {}}

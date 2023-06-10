@@ -1,0 +1,146 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/verilog/Verilog
+T_opt
+!s110 1686385202
+VSVgmC:<BjC??^==SNEY_G3
+04 9 4 work testbench fast 0
+=1-e4a8dfb35296-64843232-39-ab4
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.6c;65
+R0
+vclk_generator
+Z2 !s110 1686385701
+!i10b 1
+!s100 K^^8[:P>I_gc0dElF4zXf2
+I[Un;8NLL@H@1VE]GQ^hb33
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 dE:/verilog/Verilog/lab4
+w1686383890
+8E:/verilog/Verilog/lab4/clk.v
+FE:/verilog/Verilog/lab4/clk.v
+L0 3
+Z5 OL;L;10.6c;65
+r1
+!s85 0
+31
+Z6 !s108 1686385701.000000
+!s107 E:/verilog/Verilog/lab4/clk.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/verilog/Verilog/lab4/clk.v|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vclock_1hz
+!s110 1686361687
+!i10b 1
+!s100 zme5@PAl`9a@nCWDI8P<Y1
+I0_CeA56;M;jR70XHl6=^71
+R3
+R4
+w1686361683
+8E:/verilog/Verilog/lab4/clock1hz.v
+FE:/verilog/Verilog/lab4/clock1hz.v
+L0 2
+R5
+r1
+!s85 0
+31
+!s108 1686361687.000000
+!s107 E:/verilog/Verilog/lab4/clock1hz.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/verilog/Verilog/lab4/clock1hz.v|
+!i113 0
+R7
+R1
+vcountry
+Z8 !s110 1686385194
+!i10b 1
+!s100 jomDdOf^dL<c@@oiO6bn80
+IRegngoD4z3@IKU>Tk:8F20
+R3
+R4
+w1686385073
+8E:/verilog/Verilog/lab4/country.v
+FE:/verilog/Verilog/lab4/country.v
+L0 3
+R5
+r1
+!s85 0
+31
+Z9 !s108 1686385194.000000
+!s107 E:/verilog/Verilog/lab4/country.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/verilog/Verilog/lab4/country.v|
+!i113 0
+R7
+R1
+vhighway
+R8
+!i10b 1
+!s100 m15=_LB=AVT2OzEf80;7W3
+ICDE_LAUF7ai9QQlo:e;:?0
+R3
+R4
+w1686384477
+8E:/verilog/Verilog/lab4/highway.v
+FE:/verilog/Verilog/lab4/highway.v
+L0 3
+R5
+r1
+!s85 0
+31
+R9
+!s107 E:/verilog/Verilog/lab4/highway.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/verilog/Verilog/lab4/highway.v|
+!i113 0
+R7
+R1
+vtestbench
+R2
+!i10b 1
+!s100 X>JDXi8z^FbWkWA>lE_V:1
+ID29C:1G@C4aiCz]^S30VG0
+R3
+R4
+w1686385181
+8E:/verilog/Verilog/lab4/tb_top.v
+FE:/verilog/Verilog/lab4/tb_top.v
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/verilog/Verilog/lab4/tb_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/verilog/Verilog/lab4/tb_top.v|
+!i113 0
+R7
+R1
+vtop_module
+R2
+!i10b 1
+!s100 ek5ZJBMGPgM^H9E^^@;oX2
+IkE6DKBL<_zn_hL]E^nACj3
+R3
+R4
+w1686383901
+8E:/verilog/Verilog/lab4/top.v
+FE:/verilog/Verilog/lab4/top.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/verilog/Verilog/lab4/top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/verilog/Verilog/lab4/top.v|
+!i113 0
+R7
+R1

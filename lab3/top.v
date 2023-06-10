@@ -1,0 +1,82 @@
+
+ `include "sec_min_hour.v"
+ `include "day.v"
+ `include "month.v"
+ `include "year.v"
+ `include "day_choose.v"
+
+module top #(
+    parameter CLOCK_FREQ = 32'd5
+) (
+    input clk,
+    input rst_n,
+    output [5:0] second,
+    output [5:0] minute,
+    output [4:0] hour,
+    output [4:0] day,
+    output [3:0] month,
+    output [15:0] year
+);
+  localparam CLOCK_FREQ1 = 32'd5;
+  wire [5:0] o_second;
+ 
+  wire [5:0] o_minute;
+
+  wire [4:0] o_hour;
+
+  wire  inc_day;
+
+  wire [4:0] day_cnt;
+  wire inc_month_cnt;
+
+  wire [4:0] month_cnt;
+  wire inc_year_cnt;
+
+  wire [15:0] year_cnt;
+  wire [1:0] rst_day;
+
+  timer #(
+      .CLOCK_FREQ(CLOCK_FREQ1)) 
+      timer (
+      .clk(clk),
+      .rst_n(rst_n),
+      .o_seconds(o_second),
+      .o_minutes(o_minute),
+      .o_hours(o_hour),  
+      .inc_day(inc_day)
+  );
+
+  days Day (
+      .rst_n(rst_n),
+      .inc_day(inc_day),
+      .rst_day(rst_day),
+      .day(day_cnt),
+      .inc_month(inc_month_cnt)
+  );
+
+  months Month (
+      .rst_n(rst_n),
+      .inc_month(inc_month_cnt),
+      .month(month_cnt),
+      .inc_year(inc_year_cnt)
+  );
+
+  years Year (
+      .rst_n(rst_n),
+      .inc_year(inc_year_cnt),
+      .year(year_cnt)
+  );
+
+  day_choose Day_choose (
+      .month(month_cnt),
+      .year(year_cnt),
+      .rst_day(rst_day)
+  );
+  assign second = o_second;
+  assign minute = o_minute;
+  assign hour = o_hour;
+  assign day = day_cnt;
+  assign month = month_cnt;
+  assign year = year_cnt;
+
+endmodule
