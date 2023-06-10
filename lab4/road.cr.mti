@@ -12,6 +12,11 @@ QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
 Top level modules:
 	top_module
 
+} {} {}} E:/verilog/Verilog/lab4/country.v {0 {vlog -work work -vopt -stats=none E:/verilog/Verilog/lab4/country.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module country
+** Error (suppressible): E:/verilog/Verilog/lab4/country.v(21): (vlog-2388) 'T_timeout' already declared in this scope (country).
+
 } {} {}} E:/verilog/Verilog/lab4/tb_top.v {1 {vlog -work work -vopt -stats=none E:/verilog/Verilog/lab4/tb_top.v
 QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
 -- Compiling module testbench
@@ -19,4 +24,12 @@ QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
 Top level modules:
 	testbench
 
-} {} {}}
+} {} {}} E:/verilog/Verilog/lab4/highway.v {0 {vlog -work work -vopt -stats=none E:/verilog/Verilog/lab4/highway.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module highway
+** Error: E:/verilog/Verilog/lab4/highway.v(30): (vlog-2110) Illegal reference to net "T_timeout".
+** Error: E:/verilog/Verilog/lab4/highway.v(46): (vlog-2110) Illegal reference to net "T_timeout".
+** Error: E:/verilog/Verilog/lab4/highway.v(49): (vlog-2110) Illegal reference to net "T_timeout".
+** Error: E:/verilog/Verilog/lab4/highway.v(54): (vlog-2110) Illegal reference to net "T_timeout".
+
+} {4.0 8.0} {}}
